@@ -1,0 +1,159 @@
+:root {
+  --white: #fff;
+  --black: #000;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #533c3c;
+  font-family: "Roboto", Arial, sans-serif;
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+/* General */
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+}
+.light-link {
+  color: var(--white);
+  text-decoration: none;
+}
+.dark-link {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 700;
+}
+.no-bullets {hhhhh
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* Секция Header */
+.main-nav .main-nav-item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+.main-header .enter {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-header .basket {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-header .time {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-header .phone {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+}
+/* Секция main-slides*/
+.main-slides-item h3{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+}
+.main-slides-item .basic-btn {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+/* Секция акции малина и шоколад  */
+.free .free-heading {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+}
+.free .free-descr {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.free .basic-btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* Секция ассортимент */
+.assortment-item .price {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+}
+.price span {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
+/* Секция advantages */
+.advantages-header {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+.advantages-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+/* Статья */
+.blog .blog-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.blog .blog-item {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: underline; 
+}
+.mail .mail-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+/* Секция contacts */
+.contacts .contacts-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.contacts .contacts-adress {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--black);
+}
+/* Footer */
+.footer-nav {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+}
+.html-academy span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
